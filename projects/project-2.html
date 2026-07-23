@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Project Two</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<section id="mainprojectpage">
+<section class="detail-hero">
+  <a class="back-link" href="Project Landing Page.html">&#8249; Back to All Projects</a>
+  <span class="eyebrow">Python &middot; Social Network Analysis &middot; Centrality Metrics</span>
+  <h1>Social Network Analysis & Visualization</h1>
+</section>
+
+  <div class="photo-scroll">
+    <div class = "diagram-box">
+      <img src="project21.png">
+  </div>
+   <div class = "diagram-box">
+      <img src="project22.png">
+  </div>
+   <div class = "diagram-box">
+      <img src="project23.png">
+  </div>
+  </div>
+
+<br>
+<br>
+<div class="detail-body">
+  <h2>Overview</h2>
+  <p>As part of my Leading People in Organizations course, I completed a project that applied social network analysis (SNA) concepts to organizational networks using Python. The objective was to move beyond manually interpreting network diagrams by developing a streamlined approach to modeling, analyzing, and ranking individuals based on their structural importance within a network.
+<br>
+<br>
+The project implemented several network analysis techniques to evaluate individuals using metrics such as degree centrality, betweenness centrality, closeness centrality, eigenvector centrality, and overall network connectivity. By leveraging Python and graph analysis libraries, I automated the calculation of these metrics, enabling efficient comparison of different ranking methods across multiple social networks.
+
+  </p>
+
+  <h2>How it works</h2>
+  <table class="detail-table">
+  <thead>
+    <tr><th>Step</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Import Network Data</td><td>An Excel spreadsheet containing individuals and their corresponding target connections (who each person is connected to) is imported into Google Colab using Python.</td></tr>
+    <tr><td>Construct the Network</td><td>The relationship data is converted into a graph, where each individual represents a node and each relationship represents a line connecting two nodes.</td></tr>
+    <tr><td>Calculate Network Metrics</td><td>Using pre-developed functions, the network is analyzed to compute several centrality measures that quantify each individual's importance within the network.</td></tr>
+    <tr><td>Rank Individuals</td><td>Each metric produces a ranking based on a different definition of influence, allowing the same network to be evaluated from multiple perspectives.</td></tr>
+    <tr><td>Visualize the Results</td><td>The network is displayed as a kite diagram. Nodes are color-coded according to their metric scores, making it easy to identify highly influential or well-connected individuals.</td></tr>
+   
+  </tbody>
+</table>
+  <p>This project collects metrics for : Degree Centrality, Betweeness Centrality, Closeness Centrality, and Eigenvector Centrality.</p>
+  <br>
+  <p>For each centrality measure, the project generates a ranked list of individuals along with a corresponding network visualization. The color gradient applied to each node represents its relative score, allowing influential individuals and structural patterns within the organization to be identified quickly and compared across different ranking methods.</p>
+
+  <h2>Results</h2>
+  <p>Through this project, I've strengthened my understanding of how data-driven approaches can be used to analyze organizational structures, identify influential individuals, and uncover patterns in communication and collaboration networks. It also provided hands-on experience applying Python to solve real-world business analytics problems by combining organizational theory with computational analysis.</p>
+
+  <div class="detail-links">
+    <a href="https://github.com/luciah07/portfolio-/blob/main/projects/Social%20Network%20Analysis%20%26%20Visualization.ipynb">View on GitHub</a>
+  </div>
+</div>
+
+</body>
+</section>
+</html>
