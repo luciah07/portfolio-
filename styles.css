@@ -533,6 +533,44 @@
   .socials a { color: var(--text-dim); text-decoration: none; font-size: 0.9rem; }
   .socials a:hover { color: var(--text-light); }
 
+  .detail-body table.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0 2rem;
+    font-size: 0.95rem;
+  }
+  .detail-table th,
+  .detail-table td {
+    text-align: left;
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  .detail-table th {
+    font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-cool);
+    border-bottom: 1px solid var(--accent-cool);
+  }
+  .detail-table td:first-child {
+    color: var(--flame-hot);
+    font-weight: 500;
+    white-space: nowrap;
+    width: 1%;
+  }
+  .detail-table td {
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+  .detail-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  @media (max-width: 700px) {
+    .detail-table td:first-child { white-space: normal; width: auto; }
+  }
+
   footer {
     text-align: center;
     padding: 2rem;
